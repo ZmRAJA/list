@@ -16,23 +16,23 @@ Bot = Client(
 
 
 START_TEXT = """Hᴇʏ! {}
-☞ Vᴇʀʏ Hᴀᴘᴘʏ ᴛᴏ Kɴᴏᴡ Tʜᴀᴛ Yᴏᴜ ᴀʀᴇ here to find Movies channle .
+☞ Vᴇʀʏ Hᴀᴘᴘʏ ᴛᴏ Kɴᴏᴡ Tʜᴀᴛ Yᴏᴜ ᴀʀᴇ here to Find Movies channle .
 Tʜᴀɴᴋꜱ Fᴏʀ Uꜱɪɴɢ [Oᴜʀ Bᴏᴛꜱ](https://t.me/Latest_hindi_hd_Movies_Hub).
 Mᴀᴅᴇ Wɪᴛʜ Lᴏᴠᴇ Fᴏʀ [Yᴏᴜ](tg://settings)"""
 
 DONATE_BUTTONS = [
     InlineKeyboardButton(
-        text='📥📥 MOVIES CHANNLE 📥📥 ',
+        text='📥📥 MOVIES CHANNLES List 📥📥 ',
         callback_data='donateme'
     )
 ]
 
 DONATE_TEXT = """Hᴇʏ! {}
-Yᴏᴜ Cᴀɴ JOIN LATEST MOVIES CHANNLE.
-PayTm/PhonePe/GooglePay - `ABCD1234@okaxis`
+📥📥 Yᴏᴜ Cᴀɴ JOIN LATEST MOVIES CHANNLE.📥📥
+ `@Latest_hindi_hd_Movies_Hub`
 Oʀ Cᴏɴᴛᴀcᴛ Uꜱ :- [ツowner 🇮🇳](https://t.me/DeltaBotsOfficial). """
 
-BUTTON_TEXT = """ Click the Below Buttons To JOIN MOVIES CHANNLES. """
+BUTTON_TEXT = """ 👇👇 Click the Below Buttons To 👇👇 JOIN MOVIES CHANNLES.👇👇 """
 
 MOVIES_BUTTONS = InlineKeyboardMarkup(
     [
@@ -49,20 +49,20 @@ MOVIES_BUTTONS = InlineKeyboardMarkup(
 PAY_BUTTONS = InlineKeyboardMarkup(
     [
         [
-            InlineKeyboardButton(" ⚡️MOVIES 1⚡️ ",url="https://t.me/Latest_hindi_hd_Movies_Hub"),
-            InlineKeyboardButton(" 📥📥MOVIES 2 📥 ", url="https://t.me/Latest_hindi_hd_Movies_Hub")
+            InlineKeyboardButton('🎬𝗠𝗢𝗩𝗜𝗘𝗦🎬', url='https://t.me/joinchat/vii7DDEvKCZkNDVl'),
+            InlineKeyboardButton('💢𝗧𝗩 𝗦𝗘𝗥𝗜𝗘𝗦💢', url='https://t.me/joinchat/Qea8OllY2QUzMDY1')
         ],
         [
-            InlineKeyboardButton(" ⚡️MOVIES 3⚡️ ",url="https://t.me/Latest_hindi_hd_Movies_Hub"),
-            InlineKeyboardButton(" 📥📥MOVIES 📥 ", url="https://t.me/Latest_hindi_hd_Movies_Hub")
+            InlineKeyboardButton("⭕️ 𝗠𝗢𝗩𝗜𝗘𝗦 ⭕️ ", url="https://t.me/Latest_hindi_hd_Movies_Hub"),
+            InlineKeyboardButton("Ⓜ️ 𝗠𝗢𝗩𝗜𝗘𝗦 𝗕𝗔𝗖𝗞𝗨𝗣 Ⓜ️ ", url="https://t.me/joinchat/fWTl8WXeWX5kN2Fl")
         ],
         [
-            InlineKeyboardButton(" ⚡️MOVIES 4 ⚡️ ",url="https://t.me/Latest_hindi_hd_Movies_Hub"),
-            InlineKeyboardButton(" 📥📥MOVIES 5📥 ", url="https://t.me/Latest_hindi_hd_Movies_Hub")
+            InlineKeyboardButton("⭐️ 𝐌𝐎𝐕𝐈𝐄𝐒 𝐆𝐑𝐎𝐔𝐏 1⭐️", url="https://t.me/joinchat/RSzvS3qax24wMmNl"),
+            InlineKeyboardButton("⭐️ 𝐌𝐎𝐕𝐈𝐄𝐒 𝐆𝐑𝐎𝐔𝐏 2⭐️", url="https://t.me/joinchat/L_lCa57jPUBhNzU1")
         ],
         [
-            InlineKeyboardButton(" ⚡️MOVIES 6⚡️ ",url="https://t.me/Latest_hindi_hd_Movies_Hub"),
-            InlineKeyboardButton(" 📥📥MOVIES 7📥 ", url="https://t.me/Latest_hindi_hd_Movies_Hub")
+            InlineKeyboardButton(" ⚡️MOVIES ⚡️ ",url="https://t.me/Latest_hindi_hd_Movies_Hub"),
+            InlineKeyboardButton('🙋🙋 𝗜𝗡𝗩𝗜𝗧𝗘 𝗬𝗢𝗨𝗥 𝗙𝗥𝗜𝗘𝗡𝗗𝗦 🙋🙋', url='https://telegram.me/share/url?url=https://t.me/Latest_hindi_hd_Movies_Hub')
         ],
         [
             InlineKeyboardButton('Close', callback_data='close')
